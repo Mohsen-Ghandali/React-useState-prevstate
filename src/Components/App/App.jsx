@@ -4,7 +4,7 @@ const App = () => {
   const [counter, setCounter] = useState(0)
   const inc5 = () => {
     for (let i = 1; i <= 5; i++) {
-      setCounter(prevstate => prevstate + 1)
+      setCounter(prevstate => prevstate + 1) //---setCounter(anyName => anyName + 1)---
     }
   }
   return (
